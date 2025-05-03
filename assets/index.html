@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roleta de Prêmios</title>
+  <link rel="icon" href="/assets/favicon-32-564ce2a8.png" sizes="32x32">
+  <link rel="icon" href="icon\favicon-128.webp" sizes="128x128">
+  <link rel="icon" href="icon\favicon-32.webp" sizes="32x32">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h2>ROLETA DE PRÊMIOS</h2>
+    <p>Clique no <strong class="destaque">TREVO</strong> para girar a roleta!</p>
+
+    <div class="roleta-wrapper">
+      <div class="roleta" id="roleta">
+        <img src="img/roleta.png" alt="Roleta" />
+      </div>
+      <button class="botao-trevo" onclick="girarRoleta()">
+        <img src="img/chave-trevo.png" alt="Girar" />
+      </button>
+    </div>
+
+    <div class="tentativas" id="tentativas">100 tentativas restantes</div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
