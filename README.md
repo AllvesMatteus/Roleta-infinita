@@ -21,8 +21,3 @@ Este site foi desenvolvido para mostrar como sistemas de sorteios podem ser mani
 
 O projeto serve como uma prova de conceito para alertar os usuários sobre a falta de transparência em sistemas como o "Viva Sorte". Muitos desses sistemas são projetados para explorar a esperança dos participantes, oferecendo prêmios atrativos, mas com chances de vitória extremamente baixas.
 
-## Como executar o projeto
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/viva-sorte-roleta.git
